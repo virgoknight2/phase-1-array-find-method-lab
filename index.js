@@ -1,9 +1,7 @@
 // code your solution here
-function superbowlWin(object, index, array ){
-for (const record of object){
-    if (record.result="w"){
-    console.log(record.year)
-     }
-    }
+function isWin(object, index, array){
+    return object.result ==="W";
 }
-record.find(superbowlWin)
+
+function superbowlWin(object){
+ if (object.find(isWin)){return (object.find(isWin)).year;}else {return}}
